@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "DM Serif Display", serif;
+}
+body{
+    background-color: #FFF8EC;
+}
+#headerbrands{
+    width: 40%;
+}
+.brands{
+    width: 15%;
+}
+.brands img{
+    width: 100%;
+}
+.amullogo{
+    margin-top: -10px;
+}
+#headerone{
+    background-color: #FFF8EC;
+    padding: 15px 150px;
+}
+#headeronecontent h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#headertwo{
+    width: 100%;
+}
+.herocon{
+    width: 40%;
+    background-color: #E2F6FA;
+    padding-left: 50px;
+}
+.herocon h5{
+    margin-top: 250px;
+    margin-bottom: 20px;
+    color: #001C49;
+}
+.herocon h1{
+    font-size: 60px;
+    color: #001C49;
+    font-weight: 600;
+}
+.herocon button{
+    padding: 15px 15px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #001C49;
+    color: white;
+}
+.heroimg{
+    width: 60%;
+    height: 90vh;
+    background-color: #E2F6FA;
+}
+#sectiononemain{
+    width: 100%;
+    background-color: #FFF8EC;
+    justify-content: space-around;
+    padding: 100px;
+}
+.sectiononeimg{
+    width: 50%;
+}
+.sectiononecon{
+    width: 40%;
+}
+.heroimg img,.sectiononeimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 80px;
+}
+.sectiononecon h1{
+    margin-top: 80px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #001C49;
+    font-weight: 600;
+}
+.sectiononecon button{
+    padding: 15px 15px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #001C49;
+    color: white;
+}
+#navbar{
+    background-color:#FFF8EC;
+    padding: 20px 30px;
+    border-radius: 20px;
+    position: relative;
+    justify-content: space-between;
+    width: 1000px;
+    top: 130px;
+    left: 16%;
+}
+.logoimg{
+    width: 150px;
+    top: -40px;
+    left: 43%;
+}
+#navbar a{
+    text-decoration: none;
+    color: #001C49;
+    font-size: 18px;
+}
+#sectiononecard img{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#sectiononecard img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+#sectiononecard{
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+#sectionone{
+    background-color: #FFF8EC;
+    padding-bottom: 50px;
+}
+#whereto{
+    background-color: white;
+    width: 1271px;
+    border-radius: 20px;
+    gap: 150px;
+}
+#whereto h2{
+    font-size: 40px;
+    color: #001C49;
+    margin-top: 48px;
+}
+#whereto button{
+    padding: 15px 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    outline: none;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #001C49;
+    color: white;
+}
+#tabs a{
+    padding: 10px 20px;
+}
+#tabs li{
+    border-radius: 50px;
+    margin-right: 30px;
+}
+#tabs ul{
+    background: none;
+    border: none;
+    padding: 30px 0px;
+    border-bottom: solid #001C49 5px;
+}
+#tabs{
+    border: none;
+}
+#sectiontwo h2{
+    font-size: 40px;
+    color: #001C49;
+    font-weight: 600;
+}
+#sectiontwo{
+    padding-top: 100px;
+    background-color: white;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 30px;
+}
+#tabs-1,#tabs-2,#tabs-3,#tabs-4,#tabs-5,#tabs-6{
+    padding-top: 50px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0;
+}
+.card{
+    width: 30%;
+    color: #001C49;
+}
+
+.card img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-bottom-right-radius: 80px;
+}
+#seeallreceipes{
+    padding: 15px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    width: 220px;
+    border-radius: 10px;
+    background-color: #001C49;
+    color: white;
+}
+#sectionthreemain{
+    width: 100%;
+}
+.sectionthreeimg{
+    width: 60%;
+    height: 90vh;
+}
+.sectionthreeimg img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 60px;
+}
+.sectionthreecon{
+    width: 40%;
+    background-color: #2D5449;
+    padding-left: 100px;
+    border-bottom-right-radius: 30px;
+}
+.sectionthreecon h2{
+    font-size: 40px;
+    color: #FFF8EC;
+    margin-top: 180px;
+    font-weight: 600;
+}
+.sectionthreecon p{
+    color: #FFF8EC;
+    font-weight: 100;
+    margin-top: 30px;
+}
+.sectionthreecon button{
+    background-color: #FFF8EC;
+    padding: 15px 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: none;
+    outline: none;
+    width: 250px;
+    border-radius: 10px;
+}
+#sectionfourmain{
+    width: 100%;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+.sectionfourimg{
+    width: 60%;
+}
+.sectionfourcon{
+    width: 40%;
+    color: #001C49;
+}
+.sectionfourimg img{
+    width: 100%;
+}
+.sectionfourcon h5{
+    margin-top: 150px;
+}
+.sectionfourcon h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.sectionfourcon button{
+    background-color:#001C49;
+    padding: 15px 15px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    width: 180px;
+    border-radius: 10px;
+    color: white;
+}
+.bgtext img{
+    width: 100%;
+}
+#trendingcarousel{
+    margin-top: 50px;
+}
+#trendingcarousel h2{
+    color: #001C49;
+    font-size: 45px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+#trendingcarousel img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.owl-prev span{
+    padding: 0px 15px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    margin-top: -70px;
+    right: 0;
+    margin-right: 20px;
+    direction: rtl;
+}
+.owl-next span{
+    padding: 0px 15px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 70px;
+    margin-top: -70px;
+    direction: rtl;
+}
+.vikram-2 img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.vikram-2 .owl-nav{
+    display: block !important;
+}
+.vikram-2 .owl-prev span{
+    direction: rtl;
+}
+.vikram-2 .owl-next span{
+    direction:rtl;
+}
+.vikram-2 a{
+    text-decoration: none;
+    color: #001C49;
+    font-size: 20px;
+}
+#carousel h2{
+    color: #001C49;
+    font-size: 40px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+#carousel{
+    margin-top: 50px;
+}
+#carousel h3{
+    color: #001C49;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#nutritionfaq{
+    width: 100%;
+}
+#faqcon{
+    width: 35%;
+}
+#faqq{
+    width: 45%;
+}
+.accordion-item,.accordion-header button{
+    background: none;
+    border: none;
+    outline: none;
+}
+.accordion-header button{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.accordion-header{
+    border: none;
+    border-bottom: #001C49 solid 1px;
+}
+#sectionfive{
+    background-color:#E2F6FA;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 30px;
+}
+#sectionfive h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+#about{
+    background-color:#001C49;
+    padding: 15px 10px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+}
+footer{
+    background-color: #001C49;
+}
+#footerone{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#footerone a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#cc a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #6495e3;
+}
+#cc{
+    padding: 30px 0px 40px 0px;
+    border-top: #6495e3 solid 2px;
+}
+#navbar a:hover{
+    color: #80a6e4;
+}
